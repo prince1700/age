@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(49, 49, 58);
+}
+
+.header{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(177, 172, 172);
+    font-size: 40px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 400px;
+    box-shadow:rgb(19, 166, 211) 0px 0px 15px 8px ;
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    color: rgb(215, 226, 226);
+    border-radius: 10px;
+    border: 2px solid rgb(48, 48, 58);
+    display: flex;
+    justify-self: center;
+    margin-top: 65px;
+    animation:color 10s infinite;
+}
+@keyframes color{
+    0%{
+        box-shadow:rgb(218, 207, 207) 0px 0px 15px 8px ;
+    }
+    25%{
+        box-shadow:rgb(255, 145, 0) 0px 0px 15px 8px ;
+    }
+    50%{
+        box-shadow:rgb(157, 19, 211) 0px 0px 15px 8px ;
+    }
+    75%
+    {
+        box-shadow:rgb(19, 166, 211) 0px 0px 15px 8px ;
+    }
+    100%{
+        box-shadow:rgb(255, 255, 255) 0px 0px 15px 8px ;
+    }
+
+    
+}
+.sbox{
+    display: flex;
+    cursor:context-menu;
+    border-radius: 5px;
+    box-shadow:rgb(0, 119, 255) 0px 0px 8px 5px;
+    background-color: black;
+    width: 400px;
+    margin: 47px;
+    margin-top: 80px;
+    padding: 10px;  
+    animation:colorb 10s infinite;                  
+}
+
+@keyframes colorb{
+    0%{
+        box-shadow:rgb(241, 218, 13) 0px 0px 8px 5px;
+    }
+    25%{
+        box-shadow:rgb(6, 202, 236) 0px 0px 8px 5px;
+    }
+    50%{
+        box-shadow:rgb(255, 255, 255) 0px 0px 8px 5px ;
+    }
+    75%{
+        box-shadow:rgb(0, 119, 255) 0px 0px 8px 5px;
+    }
+    100%{
+        box-shadow:rgb(241, 218, 13) 0px 0px 8px 5px;
+    }
+}
+
+.dob{
+    display: flex;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-items: center;
+
+}
+#dateinput{
+    height: 8%;
+    display: flex;
+    font-family:'Gill Sans';
+    font-size: 15px;
+    padding-left: 2px;
+    align-items: center;
+    margin-left: 3px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 3px ;
+    background-color: rgb(243, 238, 238);
+   
+}
+
+.btn{
+    background-color: rgb(3, 3, 3);
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px  rgb(2, 204, 240);
+    width: 80px;
+    margin-left: 4px;
+    border-radius: 2px;
+    color: azure;
+    height: 22px;
+}
+.text{
+    display: flex;
+}
+
+
+.big{
+    box-shadow:0px 0px 6px 5px rgb(2, 204, 240)  ;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 45px;
+    margin-top: 80px;
+    height: 100px;
+
+    width: 400px;
+    animation:colorb 10s infinite;
+}
+
+.day{
+    
+    border:2px solid white;
+    background-color: rgb(10, 10, 10);
+    border-radius: 4px;
+    display: grid;
+    box-shadow:0px 0px 3px 3px rgb(0, 217, 255);
+    padding: 20px 0;
+    place-items: center;
+    height:80px;
+    width: 100px;
+}
+
+.month{
+    box-shadow:0px 0px 3px 3px rgb(0, 217, 255);
+    border:2px solid white;
+    background-color: rgb(10, 10, 10);
+    border-radius: 4px;
+    display: grid;
+    padding: 20px 0;
+    place-items: center;
+    height:80px;
+    width: 100px;
+}
+.year{
+    box-shadow:0px 0px 3px 3px rgb(0, 217, 255);
+    border:2px solid white;
+    background-color: rgb(10, 10, 10);
+    border-radius: 4px;
+    display: grid;
+    padding: 20px 0;
+    place-items: center;
+    height:80px;
+    width: 100px;
+}
+span{
+    cursor: pointer;
+    font-size:30px;
+    color: rgb(238, 255, 0);
+    font-weight: 500;
+}
+p{
+    cursor:pointer;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: rgb(103, 105, 107);
+}
+
